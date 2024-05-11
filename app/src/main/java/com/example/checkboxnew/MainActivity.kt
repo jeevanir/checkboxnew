@@ -48,36 +48,10 @@ class MainActivity : ComponentActivity() {
                     ).show()
                     textView.setText("You clicked female")
 
-                    //Toast.makeText(
-                      //  this@MainActivity,
-                        //"isChecked - " + female.isChecked(),
-                        //Toast.LENGTH_SHORT
-                    //).show()
 
-                    //female.setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener { buttonView, isChecked ->
-                    //  if (female.isChecked()) {
-                    // this doesn't work
-                    //    Toast.makeText(
-                    //      this@MainActivity,
-                    //    "isChecked - " + female.isChecked(),
-                    //  Toast.LENGTH_SHORT
-                    //).show()
                 }
             })
-            //textView.setOnClickListener()
-            //{
-            //  if(male.isChecked)
-            //Toast.makeText(this,"you clicked:"+male.isChecked(),
-            //  Toast.LENGTH_LONG).show()
-            //else if(female.isChecked)
 
-            //val msg = msg + "you checked female"
-            //  Toast.makeText(this,"you clicked:"+female.isChecked(),
-            //    Toast.LENGTH_LONG).show()
-
-
-            // Add TextView to LinearLayout
-            // layout ?.addView(textView)
         })
     }
 }
